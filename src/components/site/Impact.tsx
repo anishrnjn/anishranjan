@@ -28,7 +28,7 @@ export function Impact() {
                 <div className="group relative h-full overflow-hidden rounded-3xl border border-border bg-background p-7 transition-all duration-300 hover:-translate-y-1 hover:border-foreground/20 hover:shadow-[var(--shadow-card)]">
                   <div className="absolute -right-10 -top-10 size-40 rounded-full bg-accent/0 transition-colors duration-500 group-hover:bg-accent/5" />
                   <Icon className="size-5 text-muted-foreground" />
-                  <div className="mt-8 font-display text-[56px] font-extrabold leading-none tracking-tight text-foreground lg:text-[80px]">
+                  <div className="mt-8 font-display text-[44px] font-extrabold leading-none tracking-tight text-foreground sm:text-[52px] lg:text-[60px] xl:text-[68px]">
                     <Counter value={s.value} suffix={s.suffix} />
                   </div>
                   <div className="mt-5 text-sm leading-relaxed text-muted-foreground">
