@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { ArrowUpRight, Menu, X } from "lucide-react";
+import logoAsset from "@/assets/logo.png.asset.json";
 
 const links = [
   { href: "#home", label: "Home" },
@@ -49,7 +50,7 @@ export function Nav() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-10">
         <a href="#home" className="flex items-center">
           <img
-            src="/logo.png"
+            src={logoAsset.url}
             alt="Anish Ranjan Logo"
             className="h-8 w-auto object-contain"
           />
