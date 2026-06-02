@@ -47,8 +47,12 @@ export function Nav() {
       }`}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-10">
-        <a href="#home" className="flex items-center gap-2 font-display text-[15px] font-bold tracking-[0.18em] text-foreground">
-          ANISH<span className="text-muted-foreground/60">·</span>RANJAN
+        <a href="#home" className="flex items-center">
+          <img
+            src="/logo.png"
+            alt="Anish Ranjan Logo"
+            className="h-8 w-auto object-contain"
+          />
         </a>
 
         <nav className="hidden items-center gap-1 md:flex">
