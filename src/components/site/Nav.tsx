@@ -52,7 +52,7 @@ export function Nav() {
           <img
             src={logoAsset}
             alt="Anish Ranjan Logo"
-            className="h-32 w-auto rounded-none object-fill"
+            className="h-10 w-auto rounded-none object-contain"
           />
         </a>
 
