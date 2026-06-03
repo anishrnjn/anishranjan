@@ -9,7 +9,24 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 
-const cases = [
+type CaseStudy = {
+  n: string;
+  client: string;
+  title: string;
+  body: string;
+  tags: string[];
+  details: {
+    role: string;
+    duration: string;
+    snapshot?: { value: string; label: string }[];
+    coreRole?: string[];
+    overview?: string;
+    highlights?: string[];
+    impact?: string;
+  };
+};
+
+const cases: CaseStudy[] = [
   {
     n: "01",
     client: "Property First",
@@ -17,18 +34,22 @@ const cases = [
     body: "Built the creative and content department from the ground up, establishing systems, workflows and processes that enabled consistent communication across multiple real estate projects.",
     tags: ["Creative Operations", "Content Systems", "AI Integration", "Marketing Communication"],
     details: {
-      role: "Head of Creative & Content",
-      duration: "2+ years",
-      overview:
-        "Joined as the first creative hire and built a full-stack creative and content function supporting multiple residential and commercial real estate projects across India.",
-      highlights: [
-        "Set up creative operations, briefing systems and review workflows from zero.",
-        "Built and managed a multi-disciplinary team across copy, design, video and motion.",
-        "Integrated AI tools into ideation, content production and asset management pipelines.",
-        "Standardised brand and communication systems across 6+ project verticals.",
+      role: "AGM – Marcom",
+      duration: "October 2025 – Present",
+      snapshot: [
+        { value: "3K → 16K+", label: "YouTube subscribers in 8 months through structured content strategy & distribution" },
+        { value: "32K → 45K+", label: "Instagram followers via campaign-led storytelling & content systems" },
+        { value: "4 Markets", label: "Bangalore · Mumbai · NCR · Dubai" },
       ],
-      impact:
-        "Reduced creative turnaround time significantly while improving quality, consistency and on-brand output across all projects.",
+      coreRole: [
+        "Built the creative and content function from ground zero — defining structure, workflows and execution systems.",
+        "Implemented AI-driven workflows across strategy, content, copywriting, design and video production.",
+        "Developed campaign narratives for large-scale residential real estate projects across Bangalore, Mumbai, NCR and Dubai.",
+        "Created performance-driven Meta ad concepts, influencer campaigns and digital video scripts.",
+        "Structured scene-by-scene storytelling integrating pricing, specifications, amenities and location positioning.",
+        "Led creative direction for influencer shoots, walkthrough films and social campaigns.",
+        "Collaborated with leadership, sales and external partners to align communication with business goals.",
+      ],
     },
   },
   {
