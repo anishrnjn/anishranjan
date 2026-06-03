@@ -208,29 +208,72 @@ export function FeaturedWork() {
                 </div>
               </div>
 
-              <div className="mt-5">
-                <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">Overview</h4>
-                <p className="mt-2 text-[15px] leading-relaxed text-dark-foreground/75">{active.details.overview}</p>
-              </div>
+              {active.details.snapshot && (
+                <div className="mt-5">
+                  <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">
+                    Key Impact Snapshot
+                  </h4>
+                  <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-3">
+                    {active.details.snapshot.map((s) => (
+                      <div
+                        key={s.label}
+                        className="rounded-2xl border border-white/10 bg-gradient-to-br from-accent/10 to-white/[0.02] p-4"
+                      >
+                        <div className="font-display text-xl font-extrabold tracking-tight text-accent">
+                          {s.value}
+                        </div>
+                        <div className="mt-1.5 text-[12px] leading-relaxed text-dark-foreground/70">
+                          {s.label}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
-              <div className="mt-5">
-                <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">Key Highlights</h4>
-                <ul className="mt-2 space-y-2">
-                  {active.details.highlights.map((h) => (
-                    <li key={h} className="flex gap-2 text-[15px] leading-relaxed text-dark-foreground/75">
-                      <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent" />
-                      <span>{h}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              {active.details.overview && (
+                <div className="mt-5">
+                  <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">Overview</h4>
+                  <p className="mt-2 text-[15px] leading-relaxed text-dark-foreground/75">{active.details.overview}</p>
+                </div>
+              )}
 
-              <div className="mt-5">
-                <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">Impact</h4>
-                <p className="mt-2 text-[15px] leading-relaxed text-dark-foreground/75">{active.details.impact}</p>
-              </div>
+              {active.details.coreRole && (
+                <div className="mt-5">
+                  <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">Core Role</h4>
+                  <ul className="mt-3 space-y-2.5">
+                    {active.details.coreRole.map((h) => (
+                      <li key={h} className="flex gap-3 text-[15px] leading-relaxed text-dark-foreground/80">
+                        <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent" />
+                        <span>{h}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
 
-              <div className="mt-5 flex flex-wrap gap-2">
+              {active.details.highlights && (
+                <div className="mt-5">
+                  <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">Key Highlights</h4>
+                  <ul className="mt-2 space-y-2">
+                    {active.details.highlights.map((h) => (
+                      <li key={h} className="flex gap-2 text-[15px] leading-relaxed text-dark-foreground/75">
+                        <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent" />
+                        <span>{h}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {active.details.impact && (
+                <div className="mt-5">
+                  <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">Impact</h4>
+                  <p className="mt-2 text-[15px] leading-relaxed text-dark-foreground/75">{active.details.impact}</p>
+                </div>
+              )}
+
+              <div className="mt-6 flex flex-wrap gap-2 border-t border-white/10 pt-5">
                 {active.tags.map((t) => (
                   <span
                     key={t}
@@ -240,6 +283,7 @@ export function FeaturedWork() {
                   </span>
                 ))}
               </div>
+
             </>
           )}
         </DialogContent>
