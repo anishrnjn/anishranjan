@@ -362,6 +362,118 @@ export function FeaturedWork() {
                 </div>
               )}
 
+              {active.details.challenge && (
+                <div className="mt-6">
+                  <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">The Challenge</h4>
+                  <p className="mt-2 text-[15px] leading-relaxed text-dark-foreground/80">{active.details.challenge.intro}</p>
+                  {active.details.challenge.body && (
+                    <p className="mt-3 text-[15px] leading-relaxed text-dark-foreground/70">{active.details.challenge.body}</p>
+                  )}
+                  {active.details.challenge.requirements && (
+                    <>
+                      <p className="mt-4 text-sm text-dark-foreground/60">The organization required:</p>
+                      <ul className="mt-2 space-y-2">
+                        {active.details.challenge.requirements.map((r) => (
+                          <li key={r} className="flex gap-3 text-[15px] leading-relaxed text-dark-foreground/80">
+                            <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent" />
+                            <span>{r}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </>
+                  )}
+                </div>
+              )}
+
+              {active.details.objective && (
+                <div className="mt-6 rounded-2xl border border-accent/20 bg-accent/5 p-5">
+                  <h4 className="font-display text-sm font-bold uppercase tracking-wider text-accent">My Objective</h4>
+                  <p className="mt-2 text-[15px] leading-relaxed text-dark-foreground/80">{active.details.objective.intro}</p>
+                  <ul className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
+                    {active.details.objective.items.map((it) => (
+                      <li key={it} className="flex gap-2 text-[14px] leading-relaxed text-dark-foreground/85">
+                        <span className="text-accent">✓</span>
+                        <span>{it}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {active.details.built && (
+                <div className="mt-6">
+                  <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">What I Built</h4>
+                  <div className="mt-4 space-y-4">
+                    {active.details.built.map((s) => (
+                      <div key={s.heading} className="rounded-2xl border border-white/10 bg-white/[0.03] p-5">
+                        <div className="flex items-start gap-4">
+                          {s.n && (
+                            <div className="font-display text-2xl font-extrabold text-accent/80">{s.n}</div>
+                          )}
+                          <div className="flex-1">
+                            <h5 className="font-display text-base font-bold text-dark-foreground">{s.heading}</h5>
+                            {s.intro && (
+                              <p className="mt-2 text-[14px] leading-relaxed text-dark-foreground/70">{s.intro}</p>
+                            )}
+                            {s.bullets && (
+                              <ul className="mt-3 grid grid-cols-1 gap-1.5 sm:grid-cols-2">
+                                {s.bullets.map((b) => (
+                                  <li key={b} className="flex gap-2 text-[14px] leading-relaxed text-dark-foreground/80">
+                                    <span className="mt-2 size-1 shrink-0 rounded-full bg-accent" />
+                                    <span>{b}</span>
+                                  </li>
+                                ))}
+                              </ul>
+                            )}
+                            {s.outro && (
+                              <p className="mt-3 text-[13px] italic leading-relaxed text-dark-foreground/60">{s.outro}</p>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {active.details.projects && (
+                <div className="mt-6">
+                  <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">Key Projects Led</h4>
+                  <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
+                    {active.details.projects.items.map((p) => (
+                      <div key={p.name} className="rounded-2xl border border-white/10 bg-gradient-to-br from-white/[0.04] to-transparent p-4">
+                        <div className="font-display text-base font-bold text-dark-foreground">{p.name}</div>
+                        <p className="mt-1.5 text-[13px] leading-relaxed text-dark-foreground/70">{p.description}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {active.details.outcomes && (
+                <div className="mt-6">
+                  <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">Outcomes</h4>
+                  <ul className="mt-3 space-y-2">
+                    {active.details.outcomes.items.map((o) => (
+                      <li key={o} className="flex gap-2 text-[15px] leading-relaxed text-dark-foreground/85">
+                        <span className="text-accent">✓</span>
+                        <span>{o}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {active.details.lesson && (
+                <div className="mt-6 rounded-2xl border-l-2 border-accent bg-white/[0.03] p-5">
+                  <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-accent">Lessons Learned</div>
+                  <h5 className="mt-2 font-display text-lg font-bold text-dark-foreground">{active.details.lesson.heading}</h5>
+                  {active.details.lesson.body.map((p, idx) => (
+                    <p key={idx} className="mt-3 text-[15px] leading-relaxed text-dark-foreground/75">{p}</p>
+                  ))}
+                </div>
+              )}
+
               {active.details.highlights && (
                 <div className="mt-5">
                   <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">Key Highlights</h4>
