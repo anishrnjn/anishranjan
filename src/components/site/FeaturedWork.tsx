@@ -186,22 +186,109 @@ const cases: CaseStudy[] = [
   {
     n: "03",
     client: "Global HR Community (GHRC)",
-    title: "Building a Community-Led Brand Ecosystem",
-    body: "Established brand identity systems, communication frameworks and growth strategies that helped scale community engagement and enterprise participation.",
+    title: "Building a Community-Led Brand in the HR & Future of Work Space",
+    body: "Developed communication strategies, content ecosystems and engagement frameworks that strengthened community growth and brand trust across a professional HR network.",
     tags: ["Brand Development", "Community Growth", "Content Strategy", "Thought Leadership"],
     details: {
       role: "Brand & Community Strategy Lead",
       duration: "Long-term engagement",
       overview:
-        "Helped shape GHRC into one of India's most active HR communities by designing the brand ecosystem, content engine and growth playbook.",
-      highlights: [
-        "Designed the brand identity system and visual language for the community.",
-        "Built content frameworks for thought leadership, events and member spotlights.",
-        "Drove growth strategies that scaled both individual and enterprise participation.",
-        "Created communication systems across newsletter, social and event channels.",
+        "Global HR Community was one of the first environments where I had the opportunity to work at the intersection of branding, content, community engagement, events, partnerships, and thought leadership. The challenge wasn't simply marketing a product or service. The challenge was building engagement, trust, and relevance within a growing professional community of HR leaders, business professionals, industry experts, and learning-focused audiences.",
+      challenge: {
+        intro:
+          "Professional communities grow differently from traditional businesses. People don't join communities because of advertising. They join because of:",
+        body: "The challenge was creating a communication ecosystem that could consistently engage and grow the community while strengthening the overall brand.",
+        requirements: [
+          "Shared interests",
+          "Valuable content",
+          "Meaningful conversations",
+          "Professional networking",
+          "Continuous learning opportunities",
+        ],
+      },
+      objective: {
+        intro: "Position GHRC as a trusted platform for learning, networking, and professional development through strategic communication, content, and community engagement initiatives.",
+        items: [],
+      },
+      built: [
+        {
+          n: "01",
+          heading: "Strengthened Brand Communication",
+          intro: "Developed communication strategies that improved consistency across community touchpoints. This included:",
+          bullets: [
+            "Brand Messaging",
+            "Community Communication",
+            "Event Promotion",
+            "Social Media Content",
+            "Member Engagement Campaigns",
+          ],
+        },
+        {
+          n: "02",
+          heading: "Built Content-Led Community Engagement",
+          intro: "Created and managed content initiatives focused on:",
+          bullets: [
+            "HR Trends",
+            "Leadership",
+            "Learning & Development",
+            "Workplace Transformation",
+            "Industry Conversations",
+          ],
+          outro: "The goal was to keep the community engaged beyond individual events.",
+        },
+        {
+          n: "03",
+          heading: "Supported High-Impact Events & Programs",
+          intro: "Created communication assets and campaigns supporting:",
+          bullets: [
+            "Industry Events",
+            "Leadership Sessions",
+            "Learning Programs",
+            "Community Initiatives",
+          ],
+          outro: "Ensuring strong participation and visibility.",
+        },
+        {
+          n: "04",
+          heading: "Managed Multi-Stakeholder Communication",
+          intro: "Worked closely with:",
+          bullets: [
+            "Community Members",
+            "Industry Experts",
+            "Speakers",
+            "Leadership Teams",
+            "Partners",
+          ],
+          outro: "To ensure alignment across communication and engagement efforts.",
+        },
+        {
+          n: "05",
+          heading: "Enabled Program Marketing",
+          intro: "Supporting the Singularity University India Program. Developed communication and marketing initiatives that helped drive awareness and engagement for the Singularity University India program associated with Singularity University and Peter Diamandis. This required translating complex innovation-focused topics into compelling communication that resonated with the GHRC audience.",
+        },
       ],
-      impact:
-        "Grew GHRC into a recognised community brand attracting senior HR leaders and enterprise partners.",
+      highlights: [
+        "Community Building: Helped strengthen engagement across a growing professional community.",
+        "Content Ecosystem: Created consistent communication that supported learning, networking, and industry conversations.",
+        "Event & Program Visibility: Supported participation and awareness for key community initiatives and learning programs.",
+        "Stakeholder Collaboration: Managed communication across multiple internal and external stakeholders.",
+      ],
+      outcomes: {
+        items: [
+          "Strengthened community engagement through content and communication",
+          "Improved consistency across brand and event communication",
+          "Supported high-profile learning and networking initiatives",
+          "Contributed to the growth and visibility of the community brand",
+          "Built experience in community-led marketing and audience engagement",
+        ],
+      },
+      lesson: {
+        heading: "Key Learning",
+        body: [
+          "Community brands are built differently from corporate brands. Success comes from creating value consistently, facilitating meaningful conversations, and fostering a sense of belonging among members.",
+          "GHRC provided valuable experience in understanding how content, events, partnerships, and community engagement work together to build long-term brand trust.",
+        ],
+      },
     },
   },
   {
