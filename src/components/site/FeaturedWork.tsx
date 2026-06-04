@@ -292,7 +292,7 @@ export function FeaturedWork() {
       </div>
 
       <Dialog open={openIndex !== null} onOpenChange={(open) => !open && setOpenIndex(null)}>
-        <DialogContent className="max-h-[85vh] overflow-y-auto border-white/10 bg-dark text-dark-foreground sm:max-w-2xl">
+        <DialogContent className="max-h-[88vh] overflow-y-auto border-white/10 bg-dark text-dark-foreground sm:max-w-3xl">
           {active && (
             <>
               <DialogHeader>
