@@ -23,6 +23,12 @@ type CaseStudy = {
     overview?: string;
     highlights?: string[];
     impact?: string;
+    challenge?: { intro: string; body?: string; requirements?: string[] };
+    objective?: { intro: string; items: string[] };
+    built?: { n?: string; heading: string; intro?: string; bullets?: string[]; outro?: string }[];
+    projects?: { items: { name: string; description: string }[] };
+    outcomes?: { items: string[] };
+    lesson?: { heading: string; body: string[] };
   };
 };
 
@@ -30,26 +36,130 @@ const cases: CaseStudy[] = [
   {
     n: "01",
     client: "Property First",
-    title: "Building a Scalable Creative & Content Function",
-    body: "Built the creative and content department from the ground up, establishing systems, workflows and processes that enabled consistent communication across multiple real estate projects.",
-    tags: ["Creative Operations", "Content Systems", "AI Integration", "Marketing Communication"],
+    title: "Building a Scalable Marketing, Content & Creative Engine from Scratch",
+    body: "Built an end-to-end marketing and creative ecosystem from the ground up — structured teams, workflows, AI-enabled production and brand systems to support multiple launches in a fast-scaling real estate business.",
+    tags: ["Creative Operations", "Marketing Systems", "AI Integration", "Brand Communication"],
     details: {
-      role: "AGM – Marcom",
+      role: "Assistant General Manager – Marcom",
       duration: "October 2025 – Present",
-      snapshot: [
-        { value: "3K → 16K+", label: "YouTube subscribers in 8 months through structured content strategy & distribution" },
-        { value: "32K → 45K+", label: "Instagram followers via campaign-led storytelling & content systems" },
-        { value: "4 Markets", label: "Bangalore · Mumbai · NCR · Dubai" },
+      challenge: {
+        intro:
+          "When I joined Property First, the company was scaling rapidly in the highly competitive Bengaluru real estate market.",
+        body: "The challenge wasn't simply creating marketing assets. It was building an entire marketing and creative ecosystem capable of supporting multiple project launches, lead generation initiatives, digital campaigns, influencer collaborations, sales communication and brand-building efforts at scale.",
+        requirements: [
+          "A structured creative function",
+          "Faster content production",
+          "Consistent brand communication",
+          "Improved collaboration between sales and marketing",
+          "Scalable systems that could support future growth",
+        ],
+      },
+      objective: {
+        intro: "Create a modern marketing infrastructure capable of delivering:",
+        items: [
+          "Consistent Brand Communication",
+          "Faster Campaign Execution",
+          "Scalable Creative Production",
+          "AI-Enabled Workflows",
+          "Stronger Alignment Between Sales & Marketing",
+        ],
+      },
+      built: [
+        {
+          n: "01",
+          heading: "Established the Creative & Content Function",
+          intro: "Built the company's internal creative and content ecosystem from the ground up. This included:",
+          bullets: [
+            "Team structure",
+            "Roles & responsibilities",
+            "Creative workflow systems",
+            "Content approval frameworks",
+            "Asset management processes",
+          ],
+        },
+        {
+          n: "02",
+          heading: "Created Marketing Communication Frameworks",
+          intro: "Developed communication structures for:",
+          bullets: [
+            "Project Launches",
+            "Pre-Launch Campaigns",
+            "Investor Communication",
+            "Influencer Marketing",
+            "Social Media Content",
+            "Sales Enablement Assets",
+          ],
+          outro: "This helped create consistency across multiple projects and customer touchpoints.",
+        },
+        {
+          n: "03",
+          heading: "AI Integration Across Marketing Operations",
+          intro: "Introduced AI-assisted workflows across:",
+          bullets: [
+            "Market Research",
+            "Audience Analysis",
+            "Messaging Development",
+            "Content Creation",
+            "Creative Ideation",
+            "Video Scripting",
+            "Campaign Planning",
+          ],
+          outro: "Resulting in significantly faster turnaround times and increased production efficiency.",
+        },
+        {
+          n: "04",
+          heading: "Scaled Content Production",
+          intro: "Built systems to support:",
+          bullets: [
+            "Meta Campaign Creatives",
+            "Social Media Content",
+            "Influencer Scripts",
+            "Launch Films",
+            "Project Presentations",
+            "Sales Communication Assets",
+            "Investor-Focused Marketing Material",
+          ],
+          outro: "Across multiple real estate projects simultaneously.",
+        },
+        {
+          n: "05",
+          heading: "Strengthened Sales & Marketing Alignment",
+          intro: "Created structured communication systems that improved collaboration between:",
+          bullets: [
+            "Sales Teams",
+            "Leadership Teams",
+            "Creative Teams",
+            "Performance Marketing Teams",
+            "External Agencies",
+          ],
+          outro: "Helping marketing efforts remain closely aligned with business objectives.",
+        },
       ],
-      coreRole: [
-        "Built the creative and content function from ground zero — defining structure, workflows and execution systems.",
-        "Implemented AI-driven workflows across strategy, content, copywriting, design and video production.",
-        "Developed campaign narratives for large-scale residential real estate projects across Bangalore, Mumbai, NCR and Dubai.",
-        "Created performance-driven Meta ad concepts, influencer campaigns and digital video scripts.",
-        "Structured scene-by-scene storytelling integrating pricing, specifications, amenities and location positioning.",
-        "Led creative direction for influencer shoots, walkthrough films and social campaigns.",
-        "Collaborated with leadership, sales and external partners to align communication with business goals.",
-      ],
+      projects: {
+        items: [
+          { name: "Godrej Bannerghatta", description: "Township launch communication strategy, positioning support, content systems and campaign assets." },
+          { name: "Century Jakkur", description: "Launch messaging, marketing communication and campaign content development." },
+          { name: "Lodha Sadahalli", description: "Pre-launch communication strategy and investor-focused marketing content." },
+          { name: "Godrej Crown Residences", description: "Launch communication, positioning support and content ecosystem creation." },
+        ],
+      },
+      outcomes: {
+        items: [
+          "Built the complete marketing and creative function from scratch",
+          "Established AI-enabled marketing workflows",
+          "Reduced content production timelines through process optimization",
+          "Supported multiple simultaneous project launches",
+          "Created scalable systems for future growth",
+          "Improved consistency across brand communication and customer touchpoints",
+        ],
+      },
+      lesson: {
+        heading: "Key Learning",
+        body: [
+          "Building marketing teams is not about producing more content. It's about creating systems that allow strategy, creativity and execution to scale together.",
+          "At Property First, the focus was not merely campaign delivery, but building an operating model that could support long-term growth.",
+        ],
+      },
     },
   },
   {
