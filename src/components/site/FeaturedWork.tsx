@@ -509,6 +509,29 @@ export function FeaturedWork() {
                 </div>
               </div>
 
+              {active.details.meta && (
+                <div className="mt-3 grid grid-cols-1 gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-4 sm:grid-cols-3">
+                  {active.details.meta.organization && (
+                    <div>
+                      <div className="text-[11px] font-semibold uppercase tracking-wider text-dark-foreground/50">Organization</div>
+                      <div className="mt-1 text-sm font-medium">{active.details.meta.organization}</div>
+                    </div>
+                  )}
+                  {active.details.meta.program && (
+                    <div>
+                      <div className="text-[11px] font-semibold uppercase tracking-wider text-dark-foreground/50">Program</div>
+                      <div className="mt-1 text-sm font-medium">{active.details.meta.program}</div>
+                    </div>
+                  )}
+                  {active.details.meta.partner && (
+                    <div>
+                      <div className="text-[11px] font-semibold uppercase tracking-wider text-dark-foreground/50">Partner</div>
+                      <div className="mt-1 text-sm font-medium">{active.details.meta.partner}</div>
+                    </div>
+                  )}
+                </div>
+              )}
+
               {active.details.snapshot && (
                 <div className="mt-5">
                   <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">
