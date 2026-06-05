@@ -124,7 +124,7 @@ export function Hero() {
             <div className="absolute inset-x-4 bottom-4 flex items-center justify-between rounded-2xl border border-border/60 bg-background/85 px-4 py-3 backdrop-blur">
               <div>
                 <div className="font-display text-sm font-bold text-foreground">Anish Ranjan</div>
-                <div className="text-xs text-muted-foreground">AGM — Marcom · Brand & Marketing Leader</div>
+                <div className="text-xs text-muted-foreground">Brand, Content & Creative Strategist</div>
               </div>
               <div className="hidden items-center gap-1 rounded-full bg-foreground/5 px-2.5 py-1 text-[11px] font-medium text-foreground/70 sm:inline-flex">
                 <span className="size-1.5 rounded-full bg-success" /> Bengaluru
