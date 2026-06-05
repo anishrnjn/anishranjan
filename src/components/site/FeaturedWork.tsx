@@ -669,6 +669,31 @@ export function FeaturedWork() {
                 </div>
               )}
 
+              {active.details.funnel && active.details.funnel.length > 0 && (
+                <div className="mt-6">
+                  <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">The Marketing Funnel</h4>
+                  <div className="mt-4 flex flex-col items-center gap-2">
+                    {active.details.funnel.map((step, idx) => (
+                      <div key={step} className="flex flex-col items-center gap-2">
+                        <div className="rounded-xl border border-white/10 bg-gradient-to-br from-accent/10 to-white/[0.02] px-5 py-2.5 text-center">
+                          <span className="text-[14px] font-semibold text-dark-foreground">{step}</span>
+                        </div>
+                        {idx < active.details.funnel.length - 1 && (
+                          <div className="h-4 w-px bg-accent/40" />
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {active.details.whyDifferent && (
+                <div className="mt-6 rounded-2xl border border-accent/20 bg-accent/5 p-5">
+                  <h4 className="font-display text-sm font-bold uppercase tracking-wider text-accent">Why This Project Was Different</h4>
+                  <p className="mt-2 text-[15px] leading-relaxed text-dark-foreground/80">{active.details.whyDifferent}</p>
+                </div>
+              )}
+
               {active.details.projects && (
                 <div className="mt-6">
                   <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">Key Projects Led</h4>
