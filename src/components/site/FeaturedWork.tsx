@@ -673,12 +673,12 @@ export function FeaturedWork() {
                 <div className="mt-6">
                   <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">The Marketing Funnel</h4>
                   <div className="mt-4 flex flex-col items-center gap-2">
-                    {active.details.funnel.map((step, idx) => (
+                    {active.details.funnel?.map((step, idx) => (
                       <div key={step} className="flex flex-col items-center gap-2">
                         <div className="rounded-xl border border-white/10 bg-gradient-to-br from-accent/10 to-white/[0.02] px-5 py-2.5 text-center">
                           <span className="text-[14px] font-semibold text-dark-foreground">{step}</span>
                         </div>
-                        {idx < active.details.funnel.length - 1 && (
+                        {idx < active.details.funnel!.length - 1 && (
                           <div className="h-4 w-px bg-accent/40" />
                         )}
                       </div>
