@@ -25,10 +25,14 @@ type CaseStudy = {
     impact?: string;
     challenge?: { intro: string; body?: string; requirements?: string[] };
     objective?: { intro: string; items: string[] };
+    approach?: { heading?: string; intro: string; items?: string[] };
     built?: { n?: string; heading: string; intro?: string; bullets?: string[]; outro?: string }[];
     projects?: { items: { name: string; description: string }[] };
     outcomes?: { items: string[] };
     lesson?: { heading: string; body: string[] };
+    funnel?: string[];
+    whyDifferent?: string;
+    meta?: { organization?: string; program?: string; partner?: string };
   };
 };
 
@@ -293,23 +297,123 @@ const cases: CaseStudy[] = [
   },
   {
     n: "04",
-    client: "Singularity University India Program",
-    title: "Strategic Communication Through the GHRC Ecosystem",
-    body: "Led creative communication initiatives through the GHRC ecosystem, supporting awareness, engagement and audience participation.",
-    tags: ["Strategic Communication", "Community Marketing", "Creative Leadership"],
+    client: "Singularity India Program",
+    title: "Leveraging a Professional Community to Drive Program Awareness, Engagement & Sales",
+    body: "Converted an existing professional community into a highly engaged audience capable of generating registrations and program participation for a premium innovation learning program.",
+    tags: ["Strategic Communication", "Community Marketing", "Program Marketing"],
     details: {
       role: "Creative & Communication Lead",
       duration: "Program engagement",
+      meta: {
+        organization: "Global HR Community (GHRC)",
+        program: "Singularity India Program",
+        partner: "Singularity University",
+      },
       overview:
-        "Led the creative and communication push for Singularity University's India Program through the GHRC community ecosystem.",
-      highlights: [
-        "Built the communication narrative connecting future-of-work themes with HR leaders.",
-        "Directed creative assets across launch, awareness and registration phases.",
-        "Activated the GHRC community as a strategic distribution and engagement channel.",
-        "Coordinated with global and Indian stakeholders to align messaging.",
+        "The Singularity India Program was designed to introduce business leaders, HR professionals, entrepreneurs, and innovation-focused individuals to emerging technologies, future trends, and exponential thinking. The challenge was not simply promoting another event. The challenge was converting an existing professional community into a highly engaged audience capable of generating registrations and program participation.",
+      challenge: {
+        intro: "Premium learning programs often face three major obstacles:",
+        requirements: [
+          "Awareness — Many potential participants are unaware of the program's value.",
+          "Relevance — Future-focused innovation topics can often feel distant from day-to-day business challenges.",
+          "Conversion — Generating actual registrations requires far more than visibility. It requires trust.",
+        ],
+      },
+      objective: {
+        intro: "Use GHRC's existing community ecosystem to create awareness, build trust, generate engagement, and ultimately support registrations for the Singularity India Program.",
+        items: [],
+      },
+      approach: {
+        heading: "Strategic Approach",
+        intro: "Community-Led Marketing Instead of Traditional Advertising. Rather than relying solely on paid promotion, the strategy focused on activating an existing professional audience that already trusted the GHRC platform. The approach centered around:",
+        items: [
+          "Audience Education",
+          "Thought Leadership",
+          "Community Engagement",
+          "Credibility Building",
+          "Program Awareness",
+        ],
+      },
+      built: [
+        {
+          n: "01",
+          heading: "Audience Mapping",
+          intro: "Identified segments within the GHRC ecosystem most likely to resonate with the program. This included:",
+          bullets: [
+            "HR Leaders",
+            "Business Leaders",
+            "Entrepreneurs",
+            "Innovation Enthusiasts",
+            "Learning & Development Professionals",
+          ],
+        },
+        {
+          n: "02",
+          heading: "Program Positioning",
+          intro: "Helped communicate the program in a way that connected future technologies and innovation with real business opportunities and leadership challenges. The communication moved beyond features and focused on outcomes.",
+        },
+        {
+          n: "03",
+          heading: "Content-Led Awareness Campaigns",
+          intro: "Developed content designed to generate curiosity, build credibility, educate audiences, and increase consideration. Content formats included:",
+          bullets: [
+            "Thought Leadership",
+            "Speaker Highlights",
+            "Program Insights",
+            "Industry Trends",
+            "Community Discussions",
+          ],
+        },
+        {
+          n: "04",
+          heading: "Community Activation",
+          intro: "Leveraged GHRC's existing audience and engagement channels to amplify communication. This included:",
+          bullets: [
+            "Community Communication",
+            "Email Campaigns",
+            "Social Media Promotion",
+            "Member Outreach",
+            "Event-Based Engagement",
+          ],
+          outro: "The goal was to convert trust already established within the community into program interest.",
+        },
+        {
+          n: "05",
+          heading: "Conversion Support",
+          intro: "Created communication assets that helped move audiences from awareness to consideration and ultimately registration. This included:",
+          bullets: [
+            "Promotional Communication",
+            "Registration Messaging",
+            "Program Benefits",
+            "Participant-Focused Storytelling",
+          ],
+        },
       ],
-      impact:
-        "Drove strong awareness and qualified participation from senior leaders across Indian enterprises.",
+      funnel: [
+        "Community Trust",
+        "Awareness",
+        "Education",
+        "Engagement",
+        "Consideration",
+        "Registration",
+      ],
+      whyDifferent:
+        "Most program marketing starts with advertising. This initiative started with community trust. Instead of building an audience from scratch, the strategy leveraged an engaged professional network and transformed community engagement into business outcomes.",
+      outcomes: {
+        items: [
+          "Audience Reach — Community-driven awareness generation.",
+          "Engagement — Increased interest and conversations around the program.",
+          "Registrations — Supported participant acquisition through community-led marketing efforts.",
+          "Brand Credibility — Strengthened association between innovation, learning, and professional growth.",
+        ],
+      },
+      lesson: {
+        heading: "Key Learning",
+        body: [
+          "Communities are more than engagement platforms. When nurtured correctly, they become powerful growth engines capable of generating awareness, trust, advocacy, and revenue.",
+          "The Singularity India Program demonstrated how a well-established professional community can be leveraged to support business objectives while continuing to provide value to its members.",
+        ],
+      },
     },
   },
 ];
@@ -405,6 +509,29 @@ export function FeaturedWork() {
                 </div>
               </div>
 
+              {active.details.meta && (
+                <div className="mt-3 grid grid-cols-1 gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-4 sm:grid-cols-3">
+                  {active.details.meta.organization && (
+                    <div>
+                      <div className="text-[11px] font-semibold uppercase tracking-wider text-dark-foreground/50">Organization</div>
+                      <div className="mt-1 text-sm font-medium">{active.details.meta.organization}</div>
+                    </div>
+                  )}
+                  {active.details.meta.program && (
+                    <div>
+                      <div className="text-[11px] font-semibold uppercase tracking-wider text-dark-foreground/50">Program</div>
+                      <div className="mt-1 text-sm font-medium">{active.details.meta.program}</div>
+                    </div>
+                  )}
+                  {active.details.meta.partner && (
+                    <div>
+                      <div className="text-[11px] font-semibold uppercase tracking-wider text-dark-foreground/50">Partner</div>
+                      <div className="mt-1 text-sm font-medium">{active.details.meta.partner}</div>
+                    </div>
+                  )}
+                </div>
+              )}
+
               {active.details.snapshot && (
                 <div className="mt-5">
                   <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">
@@ -487,6 +614,25 @@ export function FeaturedWork() {
                 </div>
               )}
 
+              {active.details.approach && (
+                <div className="mt-6">
+                  <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">
+                    {active.details.approach.heading || "Strategic Approach"}
+                  </h4>
+                  <p className="mt-2 text-[15px] leading-relaxed text-dark-foreground/80">{active.details.approach.intro}</p>
+                  {active.details.approach.items && active.details.approach.items.length > 0 && (
+                    <ul className="mt-3 space-y-2">
+                      {active.details.approach.items.map((it) => (
+                        <li key={it} className="flex gap-3 text-[15px] leading-relaxed text-dark-foreground/80">
+                          <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent" />
+                          <span>{it}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              )}
+
               {active.details.built && (
                 <div className="mt-6">
                   <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">What I Built</h4>
@@ -520,6 +666,31 @@ export function FeaturedWork() {
                       </div>
                     ))}
                   </div>
+                </div>
+              )}
+
+              {active.details.funnel && active.details.funnel.length > 0 && (
+                <div className="mt-6">
+                  <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">The Marketing Funnel</h4>
+                  <div className="mt-4 flex flex-col items-center gap-2">
+                    {active.details.funnel?.map((step, idx) => (
+                      <div key={step} className="flex flex-col items-center gap-2">
+                        <div className="rounded-xl border border-white/10 bg-gradient-to-br from-accent/10 to-white/[0.02] px-5 py-2.5 text-center">
+                          <span className="text-[14px] font-semibold text-dark-foreground">{step}</span>
+                        </div>
+                        {idx < active.details.funnel!.length - 1 && (
+                          <div className="h-4 w-px bg-accent/40" />
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {active.details.whyDifferent && (
+                <div className="mt-6 rounded-2xl border border-accent/20 bg-accent/5 p-5">
+                  <h4 className="font-display text-sm font-bold uppercase tracking-wider text-accent">Why This Project Was Different</h4>
+                  <p className="mt-2 text-[15px] leading-relaxed text-dark-foreground/80">{active.details.whyDifferent}</p>
                 </div>
               )}
 
