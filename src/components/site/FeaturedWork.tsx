@@ -25,10 +25,14 @@ type CaseStudy = {
     impact?: string;
     challenge?: { intro: string; body?: string; requirements?: string[] };
     objective?: { intro: string; items: string[] };
+    approach?: { heading?: string; intro: string; items?: string[] };
     built?: { n?: string; heading: string; intro?: string; bullets?: string[]; outro?: string }[];
     projects?: { items: { name: string; description: string }[] };
     outcomes?: { items: string[] };
     lesson?: { heading: string; body: string[] };
+    funnel?: string[];
+    whyDifferent?: string;
+    meta?: { organization?: string; program?: string; partner?: string };
   };
 };
 
