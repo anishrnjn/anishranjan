@@ -614,6 +614,25 @@ export function FeaturedWork() {
                 </div>
               )}
 
+              {active.details.approach && (
+                <div className="mt-6">
+                  <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">
+                    {active.details.approach.heading || "Strategic Approach"}
+                  </h4>
+                  <p className="mt-2 text-[15px] leading-relaxed text-dark-foreground/80">{active.details.approach.intro}</p>
+                  {active.details.approach.items && active.details.approach.items.length > 0 && (
+                    <ul className="mt-3 space-y-2">
+                      {active.details.approach.items.map((it) => (
+                        <li key={it} className="flex gap-3 text-[15px] leading-relaxed text-dark-foreground/80">
+                          <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent" />
+                          <span>{it}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              )}
+
               {active.details.built && (
                 <div className="mt-6">
                   <h4 className="font-display text-sm font-bold uppercase tracking-wider text-dark-foreground/80">What I Built</h4>
