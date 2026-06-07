@@ -181,14 +181,14 @@ const cases: CaseStudy[] = [
         partner: "Godrej Properties",
       },
       overview:
-        "The Bengaluru real estate market is crowded with projects competing on similar promises — luxury, amenities, clubhouses, lifestyle features and connectivity. Godrej Vanantara presented a different opportunity. Located on Bannerghatta Road, the project offered something increasingly difficult to find in South Bangalore: expansive open spaces, nature-led planning, forest adjacency, township-scale living and a significantly greener environment than the surrounding urban landscape. The challenge was not simply generating leads — it was identifying the right audience, understanding their motivations and creating a positioning strategy that would differentiate the project in a highly competitive market.",
+        "The Bengaluru real estate market is crowded with projects competing on similar promises.  Luxury, amenities, clubhouses, lifestyle features and connectivity. Godrej Vanantara presented a different opportunity. Located on Bannerghatta Road, the project offered something increasingly difficult to find in South Bangalore: expansive open spaces, nature led planning, forest adjacency, township scale living and a significantly greener environment than the surrounding urban landscape. The challenge was not simply generating leads, it was identifying the right audience, understanding their motivations and creating a positioning strategy that would differentiate the project in a highly competitive market.",
       challenge: {
         intro:
           "Most residential campaigns focus on what exists within the project. However, our initial assessment suggested that Vanantara's biggest strength was not an amenity, a clubhouse, or even a floor plan. It was the rare combination of Nature + Open Space + South Bangalore Connectivity.",
         body: "The question was: how do we communicate this advantage in a way that resonates with the right buyers and drives qualified lead generation?",
         requirements: [
-          "Luxury-led messaging fatigue across the category",
-          "Amenity-heavy campaigns from competing projects",
+          "Luxury led messaging fatigue across the category",
+          "Amenity heavy campaigns from competing projects",
           "Buyers torn between connectivity and greenery",
           "Need for a sharper, more ownable positioning",
           "A lead generation engine built on relevance, not volume",
@@ -196,7 +196,7 @@ const cases: CaseStudy[] = [
       },
       objective: {
         intro:
-          "Identify the right audience, uncover the real consumer tension, and build a positioning + messaging system that drives qualified lead generation:",
+          "Identify the right audience, uncover the real consumer tension and build a positioning + messaging system that drives qualified lead generation:",
         items: [
           "Audience Discovery & Consumer Insight",
           "Distinct Positioning Territory",
@@ -208,7 +208,7 @@ const cases: CaseStudy[] = [
       approach: {
         heading: "Audience Discovery & Consumer Insight",
         intro:
-          "As part of the positioning exercise, we explored audience segments, buying motivations and upgrade aspirations. A critical insight emerged. The strongest opportunity was not among buyers looking to relocate across the city — it was among existing South Bangalore residents looking to upgrade their lifestyle.",
+          "As part of the positioning exercise, we explored audience segments, buying motivations and upgrade aspirations. A critical insight emerged. The strongest opportunity was not among buyers looking to relocate across the city.  It was among existing South Bangalore residents looking to upgrade their lifestyle.",
         items: [
           "Families living in JP Nagar",
           "Residents of Jayanagar",
