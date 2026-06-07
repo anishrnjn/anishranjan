@@ -279,20 +279,20 @@ const cases: CaseStudy[] = [
         "Outcome — A lifestyle upgrade without sacrificing location familiarity",
       ],
       whyDifferent:
-        "Most real estate campaigns focus on specifications. This campaign focused on identity and belonging. The insight was not that people wanted more greenery — it was that people wanted more greenery without leaving the South Bangalore life they had spent years building. That distinction transformed the work from a feature-led campaign into a lifestyle-led positioning exercise.",
+        "Most real estate campaigns focus on specifications. This campaign focused on identity and belonging. The insight was not that people wanted more greenery, it was that people wanted more greenery without leaving the South Bangalore life they had spent years building. That distinction transformed the work from a feature led campaign into a lifestyle led positioning exercise.",
       outcomes: {
         items: [
-          "Positioning Clarity — established a distinct narrative beyond conventional luxury and amenity led messaging",
-          "Audience Alignment — focused communication on a highly relevant upgrade audience within South Bangalore",
-          "Lead Generation Foundation — created a messaging ecosystem designed to attract more qualified and contextually relevant enquiries",
-          "Brand Differentiation — shifted the conversation from project features to quality of life, belonging, and lifestyle continuity",
+          "Positioning Clarity - Established a distinct narrative beyond conventional luxury and amenity led messaging",
+          "Audience Alignment - Focused communication on a highly relevant upgrade audience within South Bangalore",
+          "Lead Generation Foundation - Created a messaging ecosystem designed to attract more qualified and contextually relevant enquiries",
+          "Brand Differentiation - Shifted the conversation from project features to quality of life, belonging and lifestyle continuity",
         ],
       },
       lesson: {
         heading: "Key Learning",
         body: [
-          "The strongest real estate positioning often emerges not from what a project offers, but from the trade-offs buyers are trying to avoid.",
-          "For Godrej Vanantara, the breakthrough insight was simple: people didn't want to leave South Bangalore. They simply wanted a better version of living within it.",
+          "The strongest real estate positioning often emerges not from what a project offers, but from the trade offs buyers are trying to avoid.",
+          "For Godrej Vanantara, the breakthrough insight was simple. People didn't want to leave South Bangalore. They simply wanted a better version of living within it.",
           "The role of the campaign was to demonstrate that they no longer had to choose between connectivity and nature. They could have both.",
         ],
       },
