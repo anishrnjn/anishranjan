@@ -20,9 +20,9 @@ export function Approach() {
             </p>
             <p>
               Rather than treating branding, content, marketing and creative
-              development as separate disciplines, I view them as interconnected
+              development as separate disciplines. I view them as interconnected
               components of a larger ecosystem that shapes perception, drives
-              engagement and creates long-term business value.
+              engagement and creates long term business value.
             </p>
             <p className="text-muted-foreground">
               The addition of AI has only strengthened this belief.
