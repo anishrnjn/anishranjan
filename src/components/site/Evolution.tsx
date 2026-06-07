@@ -5,7 +5,7 @@ const phases = [
     tag: "Phase 01",
     title: "Foundation",
     body: [
-      "I began my career in brand identity design and visual communication, helping businesses build recognizable brands through thoughtful design systems, storytelling and customer-centric communication.",
+      "I began my career in brand identity design and visual communication, helping businesses build recognizable brands through thoughtful design systems, storytelling and customer centric communication.",
       "This phase gave me a deep understanding of brand perception, design thinking and visual communication.",
     ],
   },
