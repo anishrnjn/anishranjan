@@ -170,7 +170,7 @@ const cases: CaseStudy[] = [
     n: "02",
     client: "Godrej Properties – Godrej Vanantara",
     title: "Reframing the South Bangalore Upgrade Story Through Nature Led Positioning & Lead Generation",
-    body: "Identified the right audience, uncovered the consumer tension between connectivity and nature, and built a positioning and messaging architecture that powered lead generation for a premium township on Bannerghatta Road.",
+    body: "Identified the right audience, uncovered the consumer tension between connectivity and nature. I built a positioning and messaging architecture that powered lead generation for a premium township on Bannerghatta Road.",
     tags: ["Positioning Strategy", "Consumer Insight", "Messaging Architecture", "Lead Generation"],
     details: {
       role: "Positioning, Consumer Insight Development, Messaging Strategy, Content & Lead Generation Communication",
