@@ -222,7 +222,7 @@ const cases: CaseStudy[] = [
           n: "01",
           heading: "The Consumer Tension",
           intro:
-            "The audience was caught between two competing desires — staying close to the South Bangalore they love (schools, social circles, daily routines, healthcare, lifestyle ecosystem) or moving somewhere greener and less congested to achieve a better quality of life. Historically, buyers often had to choose one or the other.",
+            "The audience was caught between two competing desires.  Staying close to the South Bangalore they love (schools, social circles, daily routines, healthcare, lifestyle ecosystem) or moving somewhere greener and less congested to achieve a better quality of life. Historically, buyers often had to choose one or the other.",
         },
         {
           n: "02",
@@ -230,16 +230,16 @@ const cases: CaseStudy[] = [
           intro:
             "Godrej Vanantara offered a rare solution. Instead of forcing buyers to choose between connectivity and nature, it delivered both. This became the foundation of the positioning exercise.",
           outro:
-            "The South Bangalore You Love. The Space You've Been Missing. The project wasn't positioned as an escape from the city — it was positioned as a lifestyle upgrade within the ecosystem buyers already valued.",
+            "The South Bangalore You Love. The Space You've Been Missing. The project wasn't positioned as an escape from the city. It was positioned as a lifestyle upgrade within the ecosystem buyers already valued.",
         },
         {
           n: "03",
           heading: "Positioning Development",
           intro: "Several positioning territories were explored before narrowing down the strongest strategic directions:",
           bullets: [
-            "Thoughtfully Planned Living — a township designed around how people actually live",
-            "Luxury Without Chaos — premium living without the congestion that accompanies urban growth",
-            "Human Centric Township Living — a community built around wellbeing, space and everyday comfort",
+            "Thoughtfully Planned Living - A township designed around how people actually live",
+            "Luxury Without Chaos - Premium living without the congestion that accompanies urban growth",
+            "Human Centric Township Living - A community built around wellbeing, space and everyday comfort",
           ],
           outro: "Across all territories, one idea remained consistent: Nature Is Not An Amenity. It Is The Core Proposition.",
         },
@@ -249,10 +249,10 @@ const cases: CaseStudy[] = [
           intro:
             "Primary Promise — A rare opportunity to upgrade your lifestyle without leaving South Bangalore. Supporting Pillars:",
           bullets: [
-            "Nature Led Living — large open spaces and a forest edge environment",
-            "Human Centric Planning — designed around comfort, wellbeing and everyday living",
-            "Township Ecosystem — integrated community living with modern infrastructure",
-            "Connectivity Without Compromise — access to established South Bangalore neighborhoods and social infrastructure",
+            "Nature Led Living - Large open spaces and a forest edge environment",
+            "Human Centric Planning - Designed around comfort, wellbeing and everyday living",
+            "Township Ecosystem - Integrated community living with modern infrastructure",
+            "Connectivity Without Compromise - Access to established South Bangalore neighborhoods and social infrastructure",
           ],
           outro:
             "Proof points: 32 acres of open spaces · forest adjacency · township scale planning · proximity to JP Nagar and Jayanagar · low density, nature focused environment.",
@@ -262,11 +262,11 @@ const cases: CaseStudy[] = [
           heading: "My Role",
           intro: "Led strategy, insight and communication across the campaign:",
           bullets: [
-            "Consumer Insight Discovery — identified the key audience segment and uncovered the lifestyle tensions driving their decisions",
-            "Positioning Strategy — developed and evaluated multiple positioning territories before defining the strongest narrative",
-            "Messaging Architecture — created a communication framework connecting project strengths with audience aspirations",
-            "Content Strategy — built communication themes and narratives across digital channels",
-            "Lead Generation Communication — Meta Ads, Social Media, Video Scripts, Influencer Collaborations, Landing Pages, Performance Marketing Assets",
+            "Consumer Insight Discovery - Identified the key audience segment and uncovered the lifestyle tensions driving their decisions",
+            "Positioning Strategy - Developed and evaluated multiple positioning territories before defining the strongest narrative",
+            "Messaging Architecture - Created a communication framework connecting project strengths with audience aspirations",
+            "Content Strategy - Built communication themes and narratives across digital channels",
+            "Lead Generation Communication - Meta Ads, Social Media, Video Scripts, Influencer Collaborations, Landing Pages, Performance Marketing Assets",
           ],
         },
       ],
