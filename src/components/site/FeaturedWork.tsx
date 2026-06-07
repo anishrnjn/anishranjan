@@ -41,7 +41,7 @@ const cases: CaseStudy[] = [
     n: "01",
     client: "Property First",
     title: "Building a Scalable Marketing, Content & Creative Engine from Scratch",
-    body: "Built an end to end marketing and creative ecosystem from the ground up. I worked on  structured teams, workflows, AI enabled production and brand systems to support multiple launches in a fast-scaling real estate business.",
+    body: "Built an end to end marketing and creative ecosystem from the ground up. I worked on  structuring the right teams, workflows, AI enabled production and brand systems to support multiple launches in a fast-scaling real estate business.",
     tags: ["Creative Operations", "Marketing Systems", "AI Integration", "Brand Communication"],
     details: {
       role: "Assistant General Manager – Marcom",
