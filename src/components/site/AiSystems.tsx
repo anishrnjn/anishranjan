@@ -72,7 +72,7 @@ export function AiSystems() {
             </div>
             <p className="mt-4 max-w-4xl font-display text-xl font-semibold leading-snug tracking-tight text-dark-foreground lg:text-2xl text-balance">
               Use AI to enhance strategic thinking, accelerate execution and improve
-              creative output—without compromising originality or human insight.
+              creative output. You can do that without compromising originality or human insight.
             </p>
           </div>
         </Reveal>
