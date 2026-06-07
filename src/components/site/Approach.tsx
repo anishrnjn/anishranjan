@@ -29,7 +29,7 @@ export function Approach() {
             </p>
             <blockquote className="mt-8 border-l-2 border-accent pl-6 font-display text-xl font-semibold tracking-tight text-foreground lg:text-2xl">
               The future belongs to organizations that build smarter marketing
-              systems—not simply more marketing assets.
+              systems and not the ones that simply build more marketing assets.
             </blockquote>
           </div>
         </Reveal>
