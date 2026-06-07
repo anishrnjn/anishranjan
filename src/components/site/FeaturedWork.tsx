@@ -168,23 +168,134 @@ const cases: CaseStudy[] = [
   },
   {
     n: "02",
-    client: "Godrej Vanantara",
-    title: "Brand Positioning & Communication Strategy",
-    body: "Developed positioning territories, messaging architecture, content pillars and communication frameworks for a premium residential township project.",
-    tags: ["Brand Strategy", "Audience Psychology", "Messaging", "Campaign Direction"],
+    client: "Godrej Properties – Godrej Vanantara",
+    title: "Reframing the South Bangalore Upgrade Story Through Nature Led Positioning & Lead Generation",
+    body: "Identified the right audience, uncovered the consumer tension between connectivity and nature, and built a positioning and messaging architecture that powered lead generation for a premium township on Bannerghatta Road.",
+    tags: ["Positioning Strategy", "Consumer Insight", "Messaging Architecture", "Lead Generation"],
     details: {
-      role: "Brand & Communication Strategy Lead",
+      role: "Positioning, Consumer Insight Development, Messaging Strategy, Content & Lead Generation Communication",
       duration: "Project engagement",
+      meta: {
+        organization: "Bannerghatta Road, South Bangalore",
+        program: "Premium Township Development",
+        partner: "Godrej Properties",
+      },
       overview:
-        "Led the strategic positioning and communication architecture for Godrej Vanantara — a premium residential township — translating buyer psychology into a distinct brand voice.",
-      highlights: [
-        "Crafted positioning territories grounded in audience research and category analysis.",
-        "Built a messaging architecture covering brand promise, pillars and proof points.",
-        "Defined content pillars and tone-of-voice guidelines for launch and sustenance phases.",
-        "Directed campaign narratives across digital, print and on-ground touchpoints.",
+        "The Bengaluru real estate market is crowded with projects competing on similar promises — luxury, amenities, clubhouses, lifestyle features and connectivity. Godrej Vanantara presented a different opportunity. Located on Bannerghatta Road, the project offered something increasingly difficult to find in South Bangalore: expansive open spaces, nature-led planning, forest adjacency, township-scale living and a significantly greener environment than the surrounding urban landscape. The challenge was not simply generating leads — it was identifying the right audience, understanding their motivations and creating a positioning strategy that would differentiate the project in a highly competitive market.",
+      challenge: {
+        intro:
+          "Most residential campaigns focus on what exists within the project. However, our initial assessment suggested that Vanantara's biggest strength was not an amenity, a clubhouse, or even a floor plan. It was the rare combination of Nature + Open Space + South Bangalore Connectivity.",
+        body: "The question was: how do we communicate this advantage in a way that resonates with the right buyers and drives qualified lead generation?",
+        requirements: [
+          "Luxury-led messaging fatigue across the category",
+          "Amenity-heavy campaigns from competing projects",
+          "Buyers torn between connectivity and greenery",
+          "Need for a sharper, more ownable positioning",
+          "A lead generation engine built on relevance, not volume",
+        ],
+      },
+      objective: {
+        intro:
+          "Identify the right audience, uncover the real consumer tension, and build a positioning + messaging system that drives qualified lead generation:",
+        items: [
+          "Audience Discovery & Consumer Insight",
+          "Distinct Positioning Territory",
+          "Messaging Architecture",
+          "Content & Campaign Direction",
+          "Qualified Lead Generation Foundation",
+        ],
+      },
+      approach: {
+        heading: "Audience Discovery & Consumer Insight",
+        intro:
+          "As part of the positioning exercise, we explored audience segments, buying motivations and upgrade aspirations. A critical insight emerged. The strongest opportunity was not among buyers looking to relocate across the city — it was among existing South Bangalore residents looking to upgrade their lifestyle.",
+        items: [
+          "Families living in JP Nagar",
+          "Residents of Jayanagar",
+          "Bannerghatta Road homeowners",
+          "Long term South Bangalore residents",
+          "Professionals deeply connected to the South Bangalore ecosystem",
+        ],
+      },
+      built: [
+        {
+          n: "01",
+          heading: "The Consumer Tension",
+          intro:
+            "The audience was caught between two competing desires — staying close to the South Bangalore they love (schools, social circles, daily routines, healthcare, lifestyle ecosystem) or moving somewhere greener and less congested to achieve a better quality of life. Historically, buyers often had to choose one or the other.",
+        },
+        {
+          n: "02",
+          heading: "Strategic Opportunity & Core Idea",
+          intro:
+            "Godrej Vanantara offered a rare solution. Instead of forcing buyers to choose between connectivity and nature, it delivered both. This became the foundation of the positioning exercise.",
+          outro:
+            "The South Bangalore You Love. The Space You've Been Missing. The project wasn't positioned as an escape from the city — it was positioned as a lifestyle upgrade within the ecosystem buyers already valued.",
+        },
+        {
+          n: "03",
+          heading: "Positioning Development",
+          intro: "Several positioning territories were explored before narrowing down the strongest strategic directions:",
+          bullets: [
+            "Thoughtfully Planned Living — a township designed around how people actually live",
+            "Luxury Without Chaos — premium living without the congestion that accompanies urban growth",
+            "Human Centric Township Living — a community built around wellbeing, space and everyday comfort",
+          ],
+          outro: "Across all territories, one idea remained consistent: Nature Is Not An Amenity. It Is The Core Proposition.",
+        },
+        {
+          n: "04",
+          heading: "Messaging Framework",
+          intro:
+            "Primary Promise — A rare opportunity to upgrade your lifestyle without leaving South Bangalore. Supporting Pillars:",
+          bullets: [
+            "Nature Led Living — large open spaces and a forest edge environment",
+            "Human Centric Planning — designed around comfort, wellbeing and everyday living",
+            "Township Ecosystem — integrated community living with modern infrastructure",
+            "Connectivity Without Compromise — access to established South Bangalore neighborhoods and social infrastructure",
+          ],
+          outro:
+            "Proof points: 32 acres of open spaces · forest adjacency · township scale planning · proximity to JP Nagar and Jayanagar · low density, nature focused environment.",
+        },
+        {
+          n: "05",
+          heading: "My Role",
+          intro: "Led strategy, insight and communication across the campaign:",
+          bullets: [
+            "Consumer Insight Discovery — identified the key audience segment and uncovered the lifestyle tensions driving their decisions",
+            "Positioning Strategy — developed and evaluated multiple positioning territories before defining the strongest narrative",
+            "Messaging Architecture — created a communication framework connecting project strengths with audience aspirations",
+            "Content Strategy — built communication themes and narratives across digital channels",
+            "Lead Generation Communication — Meta Ads, Social Media, Video Scripts, Influencer Collaborations, Landing Pages, Performance Marketing Assets",
+          ],
+        },
       ],
-      impact:
-        "Established a premium, ownable brand voice that differentiated the project in a saturated luxury residential market.",
+      funnel: [
+        "Existing Lifestyle — Strong roots in South Bangalore",
+        "Growing Frustration — Density, congestion, limited open space",
+        "Desire — A greener, more spacious way of living",
+        "Barrier — Reluctance to leave the South Bangalore ecosystem",
+        "Solution — Godrej Vanantara",
+        "Outcome — A lifestyle upgrade without sacrificing location familiarity",
+      ],
+      whyDifferent:
+        "Most real estate campaigns focus on specifications. This campaign focused on identity and belonging. The insight was not that people wanted more greenery — it was that people wanted more greenery without leaving the South Bangalore life they had spent years building. That distinction transformed the work from a feature-led campaign into a lifestyle-led positioning exercise.",
+      outcomes: {
+        items: [
+          "Positioning Clarity — established a distinct narrative beyond conventional luxury and amenity led messaging",
+          "Audience Alignment — focused communication on a highly relevant upgrade audience within South Bangalore",
+          "Lead Generation Foundation — created a messaging ecosystem designed to attract more qualified and contextually relevant enquiries",
+          "Brand Differentiation — shifted the conversation from project features to quality of life, belonging, and lifestyle continuity",
+        ],
+      },
+      lesson: {
+        heading: "Key Learning",
+        body: [
+          "The strongest real estate positioning often emerges not from what a project offers, but from the trade-offs buyers are trying to avoid.",
+          "For Godrej Vanantara, the breakthrough insight was simple: people didn't want to leave South Bangalore. They simply wanted a better version of living within it.",
+          "The role of the campaign was to demonstrate that they no longer had to choose between connectivity and nature. They could have both.",
+        ],
+      },
     },
   },
   {
