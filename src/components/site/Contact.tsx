@@ -3,7 +3,7 @@ import { Reveal, SectionLabel } from "./Reveal";
 
 const cards = [
   { icon: MapPin, label: "Location", value: "Bengaluru, India", href: null as string | null },
-  { icon: Mail, label: "Email", value: "hello@anishranjan.com", href: "mailto:hello@anishranjan.com" },
+  { icon: Mail, label: "Email", value: "anishrnjn@gmail.com", href: "mailto:anishrnjn@gmail.com" },
   { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/anishranjan", href: "https://linkedin.com" },
 ];
 
@@ -31,7 +31,7 @@ export function Contact() {
             </p>
             <div className="flex items-start lg:justify-end">
               <a
-                href="mailto:hello@anishranjan.com"
+                href="mailto:anishrnjn@gmail.com"
                 className="group inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3.5 text-sm font-semibold text-background transition-colors hover:bg-accent"
               >
                 Start A Conversation
