@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, ArrowUpRight, Sparkles } from "lucide-react";
 import portrait from "@/assets/anish-portrait.png";
+import { AboutMeDialog } from "./AboutMeDialog";
 
 const chips = [
   "Brand Strategist",
@@ -96,13 +97,15 @@ export function Hero() {
               View My Work
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
             </a>
-            <a
-              href="#contact"
-              className="group inline-flex items-center gap-2 rounded-full border border-border bg-background px-5 py-3 text-sm font-semibold text-foreground transition-all hover:border-foreground"
-            >
-              Let's Connect
-              <ArrowUpRight className="size-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-            </a>
+            <AboutMeDialog>
+              <button
+                type="button"
+                className="group inline-flex items-center gap-2 rounded-full border border-border bg-background px-5 py-3 text-sm font-semibold text-foreground transition-all hover:border-foreground"
+              >
+                About Me
+                <ArrowUpRight className="size-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+              </button>
+            </AboutMeDialog>
           </motion.div>
         </div>
 
