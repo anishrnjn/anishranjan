@@ -7,7 +7,7 @@ const pdfs = [
   { id: "1Sm6RLRck7zbYBxIK6Lc1Bhaab8QaZFfM", label: "Profile" },
   { id: "15B8FIwdrEttFGxeysJVI5-anZt0StbbA", label: "Brand Strategy" },
   { id: "1WEEHgkXWIQ9smIhV7jDibwbsJyDaH9bq", label: "Content & Creative" },
-  { id: "1NB7C7BXdNM1yjaOtfvukRpTTUm3FmTT6", label: "Marketing Systems" },
+  { id: "1NB7C7BXdNM1yjaOtfvukRpTTUm3FmTT6", label: "Creative Direction" },
   { id: "1dX_hxA_0PwOhKtHb16yjUfi4bXDEabZ4", label: "AI-Driven Marcom" },
 ];
 
