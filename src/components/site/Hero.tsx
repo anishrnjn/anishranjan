@@ -40,10 +40,10 @@ export function Hero() {
           >
             Building Brands Through{" "}
             <span className="relative inline-block">
-              <span className="relative z-10">Strategy</span>
+              <span className="relative z-10">Strategy,</span>
               <span className="absolute inset-x-0 bottom-1 -z-0 h-3 bg-accent/20 lg:h-4" />
-            </span>
-            , Storytelling & Scalable Marketing Systems
+            </span>{" "}
+            Storytelling & Scalable Marketing Systems
           </motion.h1>
 
           <motion.div
