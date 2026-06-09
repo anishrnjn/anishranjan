@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, ArrowUpRight, Sparkles } from "lucide-react";
 import portrait from "@/assets/anish-portrait.png";
+import { AboutMeDialog } from "./AboutMeDialog";
 
 const chips = [
   "Brand Strategist",
